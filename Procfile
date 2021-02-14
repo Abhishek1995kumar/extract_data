@@ -1,0 +1,1 @@
+web: gunicorn extract_data.wsgi --log-file -
