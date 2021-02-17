@@ -6,11 +6,6 @@ from django.shortcuts import render, redirect
 from .forms import *
 from django.core.files.storage import FileSystemStorage
 
-# import sqlalchemy                     # iss ka use tab karenge jab ham MySQL Server ke sath kaam karenge
-
-#   # iss ka use tab karenge jab ham MySQL Server ke sath kaam karenge
-# engine = create_engine("mysql+pymysql://root:@localhost/ocr_image", echo=True)
-
 from sqlalchemy import create_engine
 import pytesseract
 import cv2
